@@ -6,10 +6,10 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 
 ## 0. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Link repository:
+- Họ tên: Huỳnh Ngọc Gia Hân 
+- MSSV: 2A202603128
+- Email: huynh.han.ctc@gmail.com
+- Link repository: https://github.com/suadaunanh/K5-L2-DAY04-HuynhNgocGiaHan-2A202603128-KeypointPose
 - Phiên bản CVAT (Help → About):
 - Máy: hệ điều hành ___ · RAM ___ GB · chạy CVAT chế độ đầy đủ / lite
 - Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có / không
