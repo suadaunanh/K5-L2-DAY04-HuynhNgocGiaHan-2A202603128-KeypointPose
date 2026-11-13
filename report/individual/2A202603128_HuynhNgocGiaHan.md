@@ -6,13 +6,13 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 
 - Họ tên: Huynh Ngoc Gia Han
 - MSSV: 2A202603128
-- Email: ___
+- Email: huynh.han.ctc@gmail.com
 - Link repository: https://github.com/suadaunanh/K5-L2-DAY04-HuynhNgocGiaHan-2A202603128-KeypointPose
 - Phiên bản CVAT (Help → About): 2.74.1
 - Máy: hệ điều hành macOS 27.0.1 · RAM 24 GB (Docker được cấp 7.7 GB) · chạy CVAT chế độ đầy đủ
 - Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có
-- Giờ bắt đầu: ___
-- Giờ kết thúc: ___
+- Giờ bắt đầu: 17h 
+- Giờ kết thúc: 23h 
 
 ## 1. Kiểm tra label (CP0)
 
@@ -33,15 +33,15 @@ Rê chuột vào đúng điểm cho đến khi điểm sáng lên rồi bấm `Q
 
 | Nhóm ảnh | Số ảnh | Số skeleton đã gán | Số người dưới 60 px (không gán) | Số poster / gương / màn hình bỏ qua | Thời gian (phút) |
 |---|---:|---:|---:|---:|---:|
-| `easy` | 5 | 5 | ___ | ___ | ___ |
-| `occluded` | 3 | 5 | ___ | ___ | ___ |
-| `back` | 2 | 4 | ___ | ___ | ___ |
-| `small` | 1 | 2 | ___ | ___ | ___ |
-| `crowd` | 1 | 3 | ___ | ___ | ___ |
-| `faces` | 8 | 8 | — | ___ | ___ |
+| `easy` | 5 | 5 | 0 | 0 | 15 |
+| `occluded` | 3 | 5 | 0 | 0 | 30 |
+| `back` | 2 | 4 | 0 | 0 | 20 |
+| `small` | 1 | 2 | 0 | 0 | 15 |
+| `crowd` | 1 | 3 | 0 | 0 | 10 |
+| `faces` | 8 | 8 | — | 0 | 10 |
 
-- Số ảnh người đã xong ở mốc phút 105: ___ / 10
-- Thời gian thực tế (phút): CP1 ___ · CP2 ___ · CP3 ___
+- Số ảnh người đã xong ở mốc phút 105: 100 / 10
+- Thời gian thực tế (phút): CP1 20 · CP2 30 · CP3 30
 - Ảnh tốn thời gian nhất là ảnh nào, vì sao?
 
 `000000022857.jpg` (nhóm `back`, nhà bếp). Ảnh có hai người: anh đứng quay lưng ở mép trái bị khung ảnh cắt mất nửa người, và anh đầu bếp đứng nghiêng. Ở anh quay lưng, hông trái nằm đúng trên mép ảnh và lúc đầu tôi để `v = 2`, nên script báo lỗi. Ở anh đầu bếp, tôi đặt vai, hông và gối hai bên ở hai mép thân (lưng và bụng), trong khi khi đứng nghiêng các khớp này gần như chồng lên nhau ở giữa thân. Tôi phải sửa vị trí nhiều lần, có lần còn kéo nhầm khung bao làm co cả skeleton và phải `Ctrl+Z`.
