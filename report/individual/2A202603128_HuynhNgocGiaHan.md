@@ -9,7 +9,7 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 - Email: ___
 - Link repository: https://github.com/suadaunanh/K5-L2-DAY04-HuynhNgocGiaHan-2A202603128-KeypointPose
 - Phiên bản CVAT (Help → About): 2.74.1
-- Máy: hệ điều hành macOS · RAM ___ GB (Docker được cấp 7.7 GB) · chạy CVAT chế độ đầy đủ
+- Máy: hệ điều hành macOS 27.0.1 · RAM 24 GB (Docker được cấp 7.7 GB) · chạy CVAT chế độ đầy đủ
 - Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có
 - Giờ bắt đầu: ___
 - Giờ kết thúc: ___
