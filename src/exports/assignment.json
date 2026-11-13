@@ -38,28 +38,6 @@
    "task_id": 5,
    "job_id": 5,
    "task_name": "faces-HuynhNgocGiaHan"
-  },
-  "persons-extra": {
-   "task_id": 6,
-   "job_id": 6,
-   "task_name": "persons-extra-HuynhNgocGiaHan"
-  },
-  "faces-extra": {
-   "task_id": 7,
-   "job_id": 7,
-   "task_name": "faces-extra-HuynhNgocGiaHan"
   }
- },
- "persons_extra": [
-  "000000125998.jpg",
-  "000000188948.jpg",
-  "000000323525.jpg"
- ],
- "faces_extra": [
-  "face_102517.jpg",
-  "face_274219.jpg",
-  "face_296417.jpg",
-  "face_379585.jpg",
-  "face_45276.jpg"
- ]
+ }
 }
