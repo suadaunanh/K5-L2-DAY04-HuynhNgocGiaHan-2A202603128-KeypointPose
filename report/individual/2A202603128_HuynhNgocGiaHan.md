@@ -11,7 +11,7 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 - Phiên bản CVAT (Help → About): 2.74.1
 - Máy: hệ điều hành macOS 27.0.1 · RAM 24 GB (Docker được cấp 7.7 GB) · chạy CVAT chế độ đầy đủ
 - Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có
-- Giờ bắt đầu: khoảng 17:00 (ước lượng; trước đó có buổi họp với mentor nên không canh đúng giờ)
+- Giờ bắt đầu: 17:00 
 - Giờ kết thúc: 23:00
 
 ## 1. Kiểm tra label (CP0)
